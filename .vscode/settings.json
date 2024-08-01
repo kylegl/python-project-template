@@ -1,0 +1,29 @@
+{
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  "mypy-type-checker.path": [
+    ".venv/bin/mypy"
+  ],
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.extraPaths": [
+    ".venv/lib/python3.11/site-packages"
+  ],
+  "ruff.lint.args": [
+    "--config=pyproject.toml"
+  ],
+  "ruff.organizeImports": true,
+  "ruff.fixAll": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "cSpell.words": [
+    "pytest"
+  ],
+}
